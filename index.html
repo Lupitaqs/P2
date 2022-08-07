@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- GENERAL INFO-->
+        <title>Booki</title>
+        <meta charset="utf-8">
+        <!-- LINKS TO CSS FILES ("STYLESHEET")-->
+        <link href="css/style.css" type="text/css" rel="stylesheet">
+        <link href="css/normalize.css" type="text/css" rel="stylesheet">
+        <!--FontAwesome-->
+        <script src="https://kit.fontawesome.com/1af9adfe02.js" crossorigin="anonymous"></script>
+        <!-- FONTS -->
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap');
+        </style> 
+        <!-- MEDIA QUERIES -->
+        <link href="css/mediaqueries.css" type="text/css" rel="stylesheet">
+        <meta name="viewport" content="width=device-width">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <a href="index.html"><img src="images/logo/Booki.png" alt="Booki logo"></a>
+                <div class="nav-links">
+                        <div><a href="#acc-container">Accommodations</a></div>
+                        <div><a href="#act-container">Activities</a></div>
+                </div>
+            </nav>
+        </header>
+
+        <main>
+            <h3>Find a place for your dream vacation</h3>
+            <p id="p1">Downtown or in a nature</p>
+            <nav class="search-bar">
+                    <form>
+                        <span id="loc-icon"><i class="fas fa-map-marker-alt"></i></span>
+                        <input type="text" placeholder="Search..">
+                        <button class ="button-search" type="button">Search</button>
+                        <button class ="button-icon" type="submit"><i class="fas fa-search"></i></button>
+                    </form>       
+             </nav>
+             <div class="filters-container">
+                <div id="filters">Filters</div>
+                <div class="lowcost"><a href="#"><span class="icon-filter" id="lc-icon"><i class="fas fa-money-bill-wave"></i></span>Low cost</a></div>
+                <div class="famfriendly"><a href="#"><span class="icon-filter" id="ff-icon"><i class="fas fa-child"></i></span>Family-friendly</a></div>
+                <div class="romantic"><a href="#"><span class="icon-filter" id="r-icon"><i class="fas fa-heart"></i></span>Romantic</a></div>
+                <div class="petsallowed"><a href="#"><span class="icon-filter" id="p-icon"><i class="fas fa-dog"></i></span>Pets allowed</a></div>
+             </div> 
+             <div class="info-container">
+                <span id="info-icon"><i class="fas fa-info"></i></span>
+                <p id="info">More than 500 accomadations are available in this city</p>
+            </div>
+        </main>
+
+        <section class="acc-mp">
+            <section id="acc-container">
+                <h3 id="acc">Accommodations in Marseille</h3>
+                <ul class="acc-cards-container">
+                    <li class="acc-card">
+                        <a href="#">
+                        <img src="images/hebergements/2_large/alc.jpg" alt="Individual bunk bed room">
+                        <header>
+                            <h4>Auberge la Cannebière</h4>
+                        </header>
+                        <div class="acc-content">
+                            <p class="price">Night starting at <span class="euros">25€</span></p>
+                            <span class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span><span class="star-gray"><i class="fas fa-star"></i></span>
+                        </div>
+                        </a>
+                    </li>
+                    <li class="acc-card">
+                        <a href="#">
+                        <img src="images/hebergements/2_large/hdp.jpg" alt="Two queen size beds room">
+                        <header>
+                            <h4>Hôtel du port</h4>
+                        </header>
+                        <div class="acc-content">
+                            <p class="price">Night starting at <span class="euros">52€</span></p>
+                            <span class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                        </div>
+                        </a>
+                    </li>
+                    <li class="acc-card">
+                        <a href="#">
+                        <img src="images/hebergements/2_large/lmh.jpg" alt="Two individual bed room, modern design">
+                        <header>
+                            <h4>Les mouttes Hotel</h4>
+                        </header>
+                        <div class="acc-content">
+                            <p class="price">Night starting at <span class="euros">76€</span></p>
+                            <span class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span><span class="star-gray"><i class="fas fa-star"></i></span>
+                        </div>
+                        </a>
+                    </li>
+                    <li class="acc-card">
+                        <a href="#">
+                        <img src="images/hebergements/2_large/hdlm.jpg" alt="Queen size bed room, beach style">
+                        <header>
+                            <h4>Hôtel de la mer</h4>
+                        </header>
+                        <div class="acc-content">
+                            <p class="price">Night starting at <span class="euros">46€</span></p>
+                            <span class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span><span class="star-gray"><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                        </div>
+                        </a>
+                    </li>
+                    <li class="acc-card">
+                        <a href="#">
+                        <img src="images/hebergements/2_large/alp.jpg" alt="Two wooden bunk beds, cabin style">
+                        <header>
+                            <h4>Auberge Le Panier</h4>
+                        </header>
+                        <div class="acc-content">
+                            <p class="price">Night starting at <span class="euros">23€</span></p>
+                            <span class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span><span class="star-gray"><i class="fas fa-star"></i></span>
+                        </div>
+                        </a>
+                    </li>
+                    <li class="acc-card">
+                        <a href="#">
+                        <img src="images/hebergements/2_large/hca.jpg" alt="Two queen size beds room, with tv and a desk">
+                        <header>
+                            <h4>Hôtel chez Amina</h4>
+                        </header>
+                        <div class="acc-content">
+                            <p class="price">Night starting at <span class="euros">96€</span></p>
+                            <span class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span>
+                        </div>
+                        </a>
+                    </li>
+                </ul>
+                <div id="show-more"><a href="#"><strong>Show more</strong></a></div>
+            </section>
+            <aside id="mp-container">
+                <h3 id="mp">Most Popular</h3>
+                <a href="#"><span id="growing-chart"><i class="fas fa-chart-line"></i></span></a>
+                <ul class="mp-cards-container">
+                    <li class="mp-card">
+                        <a href="#">
+                        <img src="images/hebergements/2_large/msh.jpg" alt="A green bedroom with a large mirror, a chandelier and a balcony">
+                        <div class="hotel-info">
+                            <header class="hotel" id="hotel-msh">
+                                <h4>Morning Sun Hotel</h4>
+                            </header>
+                            <div class="mp-content">
+                                <p class="price-mp">Night starting at <span class="euros">128€</span></p>
+                                <div class="rating"><span class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span></div>
+                            </div>
+                        </div>
+                        </a>
+                    </li>
+                    <li class="mp-card">
+                        <a href="#">
+                        <img src="images/hebergements/2_large/bnb.jpg" alt="Big house bedroom with a queen size bed cosy design">
+                        <div class="hotel-info">
+                            <header class="hotel" id="hotel-bnb">
+                                <h4>Aucoeur de l'eau Bed and Breakfast</h4>
+                            </header>
+                            <div class="mp-content">
+                                <p class="price-mp">Night starting at <span class="euros">71€</span></p>
+                                <div class="rating"><span class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span><span class="star-gray"><i class="fas fa-star"></i></span></div>
+                            </div>
+                        </div>
+                        </a>
+                    </li>
+                    <li class="mp-card" id="last-card-mp">
+                        <a href="#">
+                        <img src="images/hebergements/2_large/tbebh.jpg" alt="Queen size bed room with wooden floor">
+                        <div class="hotel-info">
+                            <header class="hotel" id="hotel-tbebh">
+                                <h4>Tout bleu et Blanc Hotel</h4>
+                            </header>
+                            <div class="mp-content">
+                                <p class="price-mp">Night starting at <span class="euros">68€</span></p>
+                                <div class="rating"><span class="star"><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i></span><span class="star-gray"><i class="fas fa-star"></i></span></div>
+                            </div>
+                        </div>
+                        </a>
+                    </li>
+                </ul>
+            </aside>
+        </section>
+
+        <section class="activities">
+            <h3 id="act">Activities in Marseille</h3>
+            <ul id="act-container">
+                <li class="act-card" id="item1">
+                    <a href="#">
+                        <img src="images/activites/2_large/op.jpg" alt="Harbour">
+                        <header class="place">
+                            <h4>Old Port</h4>
+                        </header>
+                    </a>
+                </li>
+                <li class="act-card" id="item2">
+                    <a href="#">
+                        <img src="images/activites/2_large/pf.jpg" alt="Abandoned military fort">
+                        <header class="place">
+                            <h4>Pòmegues Fort</h4>
+                        </header>
+                    </a>
+                </li>
+                <li class="act-card" id="item3">
+                    <a href="#">
+                        <img src="images/activites/2_large/fi.jpg" alt="A viewpoint to the ocean">
+                        <header class="place">
+                            <h4>Frioul Island</h4>
+                        </header>
+                    </a>
+                </li>
+                <li class="act-card" id="item4">
+                    <a href="#">
+                        <img src="images/activites/2_large/cnp.jpg" alt="The top of a cliff with a view to the ocean">
+                        <header class="place">
+                            <h4>Calanques National Park</h4>
+                        </header>
+                    </a>
+                </li>
+                <li class="act-card" id="item5">
+                    <a href="#">
+                        <img src="images/activites/2_large/nddlg.jpg" alt="A hill with a Church monument in the top">
+                        <header class="place">
+                            <h4>Notre-Dame-de-la-Garde</h4>
+                        </header>
+                    </a>
+                </li>
+                <li class="act-card" id="item6">
+                    <a href="#">
+                        <img src="images/activites/2_large/lp.jpg" alt="Big semi moon style monument with a fountain in the middle surrounded by gardens">
+                        <header class="place">
+                            <h4>Longchamp Park</h4>
+                        </header>
+                    </a>
+                </li>
+            </ul>
+        </section>
+
+        <footer>
+            <div class="container">
+                <h4>About</h4>
+                <ul>  
+                    <li>
+                        <div><a href="#">Site map</a></div>
+                        <div><a href="#">General Terms and conditions</a></div>
+                        <div><a href="#">Data and Privacy</a></div>
+                    </li>
+                </ul>     
+            </div>
+            <div class="container" id="oa-container">
+                <h4>Our Accommodations</h4>
+                <ul>  
+                    <li>
+                        <div><a href="#">Quality Assesment</a></div>
+                        <div><a href="#">You have a hotel?</a></div>
+                    </li>
+                </ul>    
+            </div>   
+            <div class="container" id="a-container">
+                <h4 id="assistance">Assistance</h4>
+                <ul>   
+                    <li>
+                        <div><a href="#">Help desk</a></div>
+                        <div><a href="#">Contact Us</a></div>
+                    </li>
+                </ul>    
+            </div>
+    </footer>
+    </body>
+</html>

@@ -1,0 +1,798 @@
+@media all and (min-width: 1445px) {
+    #hotel-bnb {
+        padding-bottom: 5%;
+    }
+}
+
+@media all and (min-width: 1070px) {
+    #hotel-tbebh {
+        padding-bottom: 5%;
+    }
+}
+
+@media all and (min-width: 992px) and (max-width: 1069px) {
+    #hotel-tbebh {
+        /*border: 1px solid green; /* delete */
+        width: 90%; /* 140 px*/
+    }
+}
+
+@media all and (min-width: 501px) and (max-width: 860px) {
+    .filters-container {
+        /*border: 0.5px solid red; /* delete */
+        font-weight: 600;
+        font-size: 13.5px;
+        display: flex;
+        flex-flow: row wrap;
+        row-gap: 10px;
+        justify-content: flex-start; 
+        align-content: space-between;
+        margin: 0.5px 0;
+        height: fit-content;
+    }
+
+    .info-container {
+        /*border: 1px solid red; /* delete */
+        padding: 0 0 10px 0;
+        width: 380px; 
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;  
+        margin-bottom: 0;
+        margin-top: 20px;
+    }
+
+    /* -- Accomodation cards stack ----------------------------------------------------------*/
+    .acc-mp {
+        /*border: 1px solid yellow; /* delete */
+        margin: 0 23px;
+        display: flex;
+        flex-flow: column-reverse wrap;
+        justify-content: space-between;
+        row-gap: 20px;
+    }
+
+    #acc-container {
+        border: 1px solid #F2F2F2;
+        background-color: #F2F2F2;
+        border-radius: 25px;
+        width: 100%; /* 640px */
+        padding: 18px;
+    }
+
+    /* -- Most Popular cards stack ----------------------------------------------------------*/
+    #mp-container {
+        width: 100%; /* 280px */
+        height: 200px; /* 430px */
+    }
+
+    .mp-cards-container {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-items: baseline;
+        align-content: center;
+    }
+
+    .mp-card {
+        width: 32%;
+        height: 100px; /* 100px */
+    }
+
+    #growing-chart {
+        position: relative;
+        left: 97%;
+        bottom: 10%;
+        font-size: 21px;
+        color: black;
+    }
+
+    /* -- Activities cards stack ----------------------------------------------------------*/
+    .activities {
+        /*border: 1px solid orange; /* delete */
+        padding: 0 23px;
+        height: 450px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+
+    #act-container {
+        /*border: 1px solid red; /* delete */
+        padding-top: 10px;
+        width: 100%;
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        margin-top: 30px;
+        
+    }
+
+    .act-card {
+        border-radius: 20px;
+        width: 31%;   /* mp size 315px */
+    }
+
+    .act-card img {
+        object-fit: cover;
+        width: 100%;
+        height: 80%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .place {
+        padding: 8px 0 0 6px;
+    }
+    
+    #item1, #item4 {
+        height: 180px;
+    }
+    
+    #item2 {
+        height: 180px; 
+        padding: 0;
+    }
+    
+    #item3 {
+        height: 180px;
+        padding: 0;
+    }
+    
+    #item5 {
+        height: 180px;
+        padding: 0;
+    }
+    
+    #item6 {
+        height: 180px;  /* acc size 160px */
+        padding: 0;
+    }
+
+    /* -- Footer ----------------------------------------------------------*/
+    footer {
+        padding: 9px 0 30px 28px;
+        display: flex;
+        flex-direction: column;
+        justify-content:space-between;
+        height: 340px;
+    }
+
+    footer h4{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 16px;
+    }
+
+    .container {
+        /*border: 1px solid green; /* delete */
+        margin-top: 20px;
+        width: 30%;
+        height: fit-content;
+        margin-bottom: 10px;
+    }
+
+    #a-container {
+        margin-left: 0;
+        position: absolute;
+        left: 58%;
+    }
+
+    #footer-container {
+        border: 1px solid red; /* delete */
+        height: 150px;
+    }
+}
+
+@media all and (min-width: 501px) and (max-width: 745px) {
+    /* -- Most Popular cards stack ----------------------------------------------------------*/
+    #mp-container {
+        width: 100%; /* 280px */
+        height: 490px; /* 430px */
+        padding: 0px 18px;
+    }
+
+    #mp {
+        position: relative;
+        top: 5%;
+        margin-bottom: 18px;
+    }
+
+    .mp-card {
+        border: 2px solid white;
+        border-radius: 20px;
+        font-size: 11px;
+        padding: 2px;
+        width: 100%;
+        height: 120px; /* 100px */
+    }
+
+    .hotel-info {
+        position: relative;
+        left: 43%;
+        bottom: 92%;
+    }
+
+    .star {
+        letter-spacing: 1px;
+    }
+
+    #growing-chart {
+        position: relative;
+        left: 94%;
+        bottom: 5%;
+    }
+
+    .price-mp {
+        margin: 25px 0 25px 8px;
+        font-size: 12px;
+    }
+    
+    .hotel {
+        width: 60%; /* 140 px*/
+    }
+    
+    #hotel-msh {
+        padding-bottom: 0%; 
+    }
+
+    #euros {
+        font-weight: 600;
+    }
+}
+
+@media all and (min-width: 501px) and (max-width: 730px) {
+    /* -- Accomodation cards stack ----------------------------------------------------------*/
+    .acc-mp {
+        /*border: 1px solid yellow; /* delete */
+        margin-top: 50px;
+    }
+}
+
+@media all and (min-width: 501px) and (max-width: 684px) {
+    /* -- Most Popular cards stack ----------------------------------------------------------*/
+    .hotel {
+        /*border: 1px solid green; /* delete */
+        width: 100%; /* 140 px*/
+    }
+}
+
+@media all and (min-width: 501px) and (max-width: 624px) {
+    /* -- Footer ----------------------------------------------------------*/
+    footer {
+        height: 360px;
+    }
+}
+
+@media all and (min-width: 501px) and (max-width: 583px) {
+    /* -- Footer ----------------------------------------------------------*/
+    footer {
+        height: 410px;
+    }
+
+    .container {
+        /*border: 1px solid green; /* delete */
+        margin-top: 10px;
+    }
+
+    #oa-container {
+        width: 60%;
+    }
+}
+
+@media all and (min-width: 501px) and (max-width: 599px) {
+    /* -- Accomodation cards stack ----------------------------------------------------------*/
+    .acc-mp {
+        /*border: 1px solid yellow; /* delete */
+        row-gap: 10px;
+        margin: 50px 23px 30px 23px;
+    }
+
+    #acc-container {
+        border: none;
+        background-color: white;
+        width: 100%; /* 640px */
+        padding: 0;
+    }
+
+    .acc-cards-container {
+        margin: 5px;
+    }
+
+    .acc-card {
+        min-width: 48%; /* 183 px */
+        height: 140px;
+        box-shadow: 2px 4px 8px 2px #dfdcdc;
+    }
+    
+    /* -- Activities cards stack ----------------------------------------------------------*/
+    .activities {
+        /*border: 1px solid orange; /* delete */
+        height: 565px;
+    }
+
+    #act-container {
+        /*border: 1px solid red; /* delete */
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-between;
+        align-content: center;
+        align-items: center;
+        margin-top: 90px;
+        
+    }
+
+    .act-card {
+        border-radius: 20px;
+        width: 48%;   /* mp size 315px */
+    }
+
+    .act-card img {
+        object-fit: cover;
+        width: 100%;
+        height: 80%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .place {
+        padding: 4px 0 0 6px;
+    }
+
+    #item1, #item4 {
+        height: 150px;
+    }
+
+    #item2 {
+        height: 150px; 
+        padding: 0;
+    }
+
+    #item3 {
+        height: 150px;
+        padding: 0;
+    }
+
+    #item5 {
+        height: 150px;
+        padding: 0;
+    }
+
+    #item6 {
+        height: 150px;  /* acc size 160px */
+        padding: 0;
+    }
+
+    /* -- Footer ----------------------------------------------------------*/
+    footer {
+        height: 350px;
+    }
+}
+
+@media all and (max-width: 500px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+        padding: 0 0;
+        height: 128px;
+        justify-content: center;
+    } 
+
+    nav img {
+        width: 35%;
+        margin-top: 20px;
+        margin-left: 120px;
+    }
+    
+    .nav-links  {    
+        display: flex;
+        width: 100%;
+        margin-top: 20px;
+        height: 38px;
+        border-bottom: 4px solid #F2F2F2; 
+        flex-direction: row;
+    }
+
+    .nav-links  div{    
+        flex: 1;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        align-self: center;
+    }
+
+    .nav-links a {
+        display: flex;
+        color:black;
+        text-decoration: none;
+        font-size: 16px;
+        padding: 10px 17px;
+        align-self: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .nav-links a:hover {
+        border-top: none;
+        border-bottom: 2px solid #0065FC;
+        padding-bottom: 9px;
+    }
+
+    h3 {
+        padding: 28px 0;
+        line-height: 1.2;
+        padding-bottom: 10px;
+        font-size: 22px;
+        margin: 0;
+    }
+    
+    #p1 {
+        font-size: 16px;
+        margin: 4px 0 25px 0;
+    }
+
+    /* -- Search bar ---------------------*/ 
+    .search-bar {
+        justify-content: start;
+        position: relative;
+        padding-top: 50px;
+        height: 27%;
+        padding-left: 0px;
+        margin-bottom: 25px;
+    }
+    
+    #loc-icon {
+        background-color: #F2F2F2;
+        padding: 15px 20px;
+        border-top-left-radius: 16px;
+        border-bottom-left-radius: 16px;
+        font-size: 18px;
+    }
+
+    .search-bar input[type=text] {
+        padding: 15px;
+        border: 1px solid #F2F2F2;
+        font-weight: 700;
+        width: 70%;
+        font-size: 18px;
+    }
+
+    .button-search {
+        display: none;
+    }
+
+    .button-icon {
+        display: inline;
+
+        background-color: #0065FC;
+        color: white;
+        border: none;
+        font-weight: 700;
+        padding: 15px;
+        border-radius: 16px;
+        font-size: 20px;
+    
+        position: relative;
+        left: 86%;
+        bottom: 51px;
+    }
+
+    /* -- Filters ---------------------------------------------------------------------------*/
+    .filters-container {
+        /*border: 0.5px solid red; /* delete */
+        display: flex;
+        flex-flow: column wrap;
+        justify-content: flex-start; 
+        margin: 0 0 20px 0;
+    }
+
+    #filters {
+        width: auto;
+        font-size: 18px;
+        padding-top: 0;
+        margin-bottom: 3px;
+    }
+
+    .filters-container div {
+        margin-right: 2px; 
+        padding: 12px 0;
+        margin-bottom: 14px;
+        font-size: 16px;
+        font-weight: 700;
+        border: 2px solid #dfdcdc;
+    }
+
+    .icon-filter {
+        font-size: 19px;
+        margin-right: 1.5%;
+    }
+
+    .lowcost {
+        width: 145px; /* 43%; */
+    }
+
+    .famfriendly  {
+        width: 190px; /* 57%; */
+    }
+
+    .romantic {
+        width: 160px;  /* 44% */
+        position: absolute;
+        left: 51%;
+        bottom: 32.3%;
+    }
+
+    .petsallowed {
+        width: 210px; /* 63% */
+    }
+
+    #lc-icon {
+        padding: 13.5px;
+    }
+
+    #ff-icon {
+        padding: 13.5px 18px;
+    }
+
+    #r-icon {
+        padding: 13.8px;
+    }
+
+    #p-icon {
+        padding: 13.5px;
+    }
+
+    /* -- i paragraph ----------------------------------------------------------------------*/
+    .info-container {
+        /*border: 1px solid red; /* delete */
+        padding: 2px 0 2px 0;
+        width: auto; 
+        margin: 1px 0 0 0;
+    }
+
+    #info-icon {
+        padding: 5px 8px;
+        margin-right: 10px;
+        font-size: 11px;
+        font-weight: 700;
+    }
+
+    #info {
+        /*border: 1px solid green; /* delete */
+        width: 280px;
+        font-size: 16px;
+    }
+
+    /* -- Accomodation cards stack ----------------------------------------------------------*/
+    .acc-mp {
+        /*border: 1px solid yellow; /* delete */
+        margin: 315px 0 0 0;
+        display: flex;
+        flex-flow: column-reverse wrap;
+        justify-content: space-between;
+    }
+
+    #acc {
+        margin: -8px 0 10px 5px;
+    }
+
+    #acc-container {
+        background-color: white;
+        border-radius: 0;
+        width: 100%; /* 640px */
+        padding: 18px;
+    }
+
+    .acc-cards-container {
+        display: flex;
+        flex-flow: column wrap;
+    }
+
+    .acc-card {
+        border: 2px solid white;
+        border-radius: 20px;
+        font-size: 11px;
+        padding: 2px;
+        width: 100%; /* 183 px */
+        height: 195px;
+        box-shadow: 2px 4px 8px 2px #f2f2f2;
+    }
+
+    .acc-card img {
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    h4 {
+        margin: 6px 0 5px 8px;
+        font-size: 16px;
+    }
+
+    .price {
+        margin: 0 0 7px 8px;
+        font-size: 14px;
+    }
+
+    #show-more a {
+        margin: 12px 0 1px 2px;
+        font-size: 18px;
+        text-decoration: none;
+        color: black;
+    }
+
+    /* -- Most Popular cards stack ----------------------------------------------------------*/
+    #mp-container {
+        border-radius: 0;
+        width: 100%; /* 280px */
+        height: 560px; /* 430px */
+        padding: 0px 18px;
+    }
+
+    #mp {
+        position: relative;
+        top: 1%;
+    }
+
+    .mp-card {
+        border: 2px solid white;
+        border-radius: 20px;
+        font-size: 11px;
+        padding: 2px;
+        width: 100%;
+        height: 140px; /* 100px */
+        margin-bottom: 10px;
+    }
+
+    .mp-card img {
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .hotel-info {
+        position: relative;
+        left: 43%;
+    }
+
+    .star {
+        letter-spacing: 1px;
+    }
+
+    #growing-chart {
+        position: relative;
+        left: 94%;
+        bottom: 5%;
+    }
+
+    .price-mp {
+        margin: 9px 0 35px 8px;
+        font-size: 14px;
+    }
+    
+    .hotel {
+        width: 80%; /* 140 px*/
+    }
+    
+    #hotel-msh {
+        padding-bottom: 6%;
+    }
+
+    /* -- Activities cards stack ----------------------------------------------------------*/
+    .activities {
+        /*border: 1px solid orange; /* delete */
+        padding: 0 23px;
+        height: 1290px;
+        margin-bottom: 10px;
+        margin-top: 0;
+    }
+
+    #act-container {
+        /*border: 1px solid red; /* delete */
+        padding-top: 10px;
+        width: 100%;
+        display: flex;
+        flex-flow: column nowrap;
+        
+    }
+
+    .act-card {
+        border-radius: 20px;
+        width: 100%;   /* mp size 315px */
+        margin-bottom: 20px;
+    }
+
+    .act-card img {
+        object-fit: cover;
+        width: 100%;
+        height: 70%;
+        border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+    }
+
+    .place {
+        padding: 8px 0 0 6px;
+    }
+    
+    #item1, #item4 {
+        height: 180px;
+    }
+    
+    #item2 {
+        height: 180px; 
+        padding: 0;
+    }
+    
+    #item3 {
+        height: 180px;
+        padding: 0;
+    }
+    
+    #item5 {
+        height: 180px;
+        padding: 0;
+    }
+    
+    #item6 {
+        height: 180px;  /* acc size 160px */
+        padding: 0;
+    }
+
+    /* -- Footer ----------------------------------------------------------*/
+    footer {
+        padding: 9px 0 30px 28px;
+        display: flex;
+        flex-direction: column;
+        height: fit-content;
+    }
+
+    footer h4{
+        margin-top: 15px;
+        margin-bottom: 15px;
+        font-size: 18px;
+    }
+
+    footer a {
+        font-size: 16px;
+    }
+
+    .container {
+        /*border: 1px solid green; /* delete */
+        margin-top: 20px;
+        margin-right: 150px;
+        width: 92%;
+        margin-bottom: 10px;
+    }
+
+    #a-container {
+        margin-left: 0;
+    }
+}
+
+@media all and (min-width: 434px) and (max-width: 500px) {
+    /* -- Most Popular cards stack ----------------------------------------------------------*/
+    .price-mp {
+        margin: 9px 0 35px 8px;
+        font-size: 14px;
+    }
+    
+    .hotel {
+        width: 100%; /* 140 px*/
+    }
+    
+    #hotel-msh {
+        padding-bottom: 4%;
+    }
+
+    #hotel-tbebh  {
+        padding-bottom: 4%;
+    }
+}
+
+@media all and (min-width: 431px) and (max-width: 500px) {
+    .romantic {
+        position: absolute;
+        left: 51%;
+        bottom: 36%;
+    }
+}
+

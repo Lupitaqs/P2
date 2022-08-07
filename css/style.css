@@ -1,0 +1,522 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* -- Container of the logo and accomodation/activities links -------------------------- */
+nav {
+    display: flex;
+    padding: 0 3px 0 3px;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+
+    /*border: 1px solid yellow; /* delete */
+}
+
+/* -- Logo ------------------------------------------------------------------------------*/
+nav img {
+    width: 85px;
+    margin-left: 20px;
+    /*border: 1px solid red; */
+}
+
+/* -- Accomodations & Activities container ----------------------------------------------*/
+.nav-links  {
+    align-self: flex-start;
+    list-style: none;
+    display: flex;
+    width: 230px; 
+    height: 60px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 5px;
+
+    /*border: 1px solid red; */
+}
+
+/* -- Accomodations & Activities items ------------------------------------------------- */
+.nav-links div {    
+    /*border: 1px solid green; */
+}
+
+.nav-links a {
+    color:black;
+    text-decoration: none;
+    font-size: 13px;
+    padding: 20px 17px;
+}
+
+/* -- Change to blue when the mouseover -------------------------------------------------*/
+.nav-links a:hover {
+    color:#0065FC;
+    border-top: 2px solid #0065FC;
+}
+
+/* -- Heading, phrase -------------------------------------------------------------------*/
+main {
+    /*border: 1px solid orange; /* delete */
+    margin: 0 23px;
+    height: 228px;
+    font-size: 13px;
+}
+
+h3 {
+    /*border: 2px solid green; /* delete */
+    font-size: 17px;
+    line-height: 1.8;
+    
+}
+
+#p1 {
+    /*border: 2px solid green; /* delete */
+}
+
+/* -- Search bar ------------------------------------------------------------------------*/
+#loc-icon {
+    background-color: #F2F2F2;
+    padding: 10px 14px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.search-bar {
+    /*border: 1px solid red; /* delete */
+    position: relative;
+    font-size: 15px;
+    display: flex;
+    flex-flow: row nowrap;
+    padding: 0;
+    
+}
+
+.search-bar input[type=text] {
+    padding: 9px;
+    border: 1px solid #F2F2F2;
+    font-weight: 600;
+    position: relative;
+    right: 5px;
+    width: 57%; /* 185 px */
+}
+
+.button-search {
+    background-color: #0065FC;
+    border: none;
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 11px 12px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    position: relative;
+    right: 8.5px;
+}
+
+.button-icon {
+    display: none;
+}
+
+/* -- Filters ---------------------------------------------------------------------------*/
+.filters-container {
+    /*border: 0.5px solid red; /* delete */
+    font-weight: 600;
+    font-size: 13.5px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start; 
+    align-content: space-between;
+    margin-top: 0.5px;
+}
+
+#filters {
+    border: none;
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+    border-radius: 0;
+    width: auto;
+    font-weight: 700;
+}
+
+.filters-container div {
+    margin-right: 23px; 
+    border: 1.5px solid #dfdcdc; 
+    border-radius: 30px;
+    padding: 8px 0;
+}
+
+.filters-container a {
+    color: black;
+    text-decoration: none; 
+}
+
+.icon-filter {
+    background-color: #DEEBFF;
+    color: #0065FC;
+    font-size: 16px;
+    border-radius: 100%;
+    padding: 5px;
+    margin-right: 1.5%;
+    position: relative;
+    right: 4%;
+}
+
+.lowcost {
+    width: 115px;
+}
+
+.famfriendly  {
+    width: 155px;
+}
+
+.romantic {
+    width: 110px;
+}
+
+.petsallowed {
+    width: 140px;
+}
+
+#lc-icon {
+    padding: 9px;
+}
+
+#ff-icon {
+    padding: 9px 13px;
+}
+
+#r-icon {
+    padding: 9px;
+}
+
+#p-icon {
+    padding: 9px;
+}
+
+/* -- Change to blue when the mouseover -------------------------------------------------*/
+.filters-container a:hover {
+    color:#0065FC;
+}
+
+/* -- i paragraph ----------------------------------------------------------------------*/
+.info-container {
+    /*border: 1px solid red; /* delete */
+    padding: 20px 0 10px 0;
+    width: 380px; 
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;  
+    margin-bottom: 0;
+}
+
+#info-icon {
+    border: 1px solid #dfdcdc;
+    color: #0065FC;
+    border-radius: 100%;
+    padding: 4px 8px;
+    margin-right: 10px;
+    font-size: 10px;
+}
+
+#info {
+    /*border: 1px solid green; /* delete */
+    width: 320px;
+}
+
+/* -- Accomodation cards stack ----------------------------------------------------------*/
+.acc-mp {
+    /*border: 1px solid yellow; /* delete */
+    margin: 0 23px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    column-gap: 3px;
+}
+
+#acc {
+    margin: 4px 0 10px 5px;
+}
+
+#acc-container {
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+    border-radius: 25px;
+    width: 67.9%; /* 640px */
+    padding: 18px;
+}
+
+.acc-cards-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    margin: 5px;
+}
+
+.acc-card {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 11px;
+    padding: 2px;
+    min-width: 31%; /* 183 px */
+    height: 140px;
+    margin-bottom: 20px;
+    box-shadow: 2px 4px 8px 2px #dfdcdc;
+    list-style: none;
+}
+
+.acc-card a {
+    text-decoration: none;
+    color: black;
+}
+
+.acc-card img {
+    object-fit: cover;
+    width: 100%;
+    height: 60%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+h4 {
+    margin: 2px 0 3px 8px;
+    font-size: 12px;
+}
+
+.price {
+    margin: 0 0 3px 8px;
+}
+
+#show-more a {
+    margin: 8px 0 1px 6px;
+    font-size: 13px;
+    text-decoration: none;
+    color: black;
+}
+
+.acc-card:hover { /* Mouseover at cards ------------------------------*/
+    border: 3px solid #0065FC;
+}
+
+/* -- Most Popular cards stack ----------------------------------------------------------*/
+#mp-container {
+    border: 1px solid #F2F2F2;
+    background-color: #F2F2F2;
+    border-radius: 25px;
+    width: 29.5%; /* 280px */
+    height: 430px; /* 430px */
+    padding: 15px 18px;
+}
+
+#mp {
+    position: relative;
+    top: 3%;
+}
+
+.mp-cards-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+.mp-card {
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 15px;
+    font-size: 11px;
+    padding: 2px;
+    width: 100%;
+    height: 100px; /* 100px */
+    margin-bottom: 20px;
+    box-shadow: 2px 4px 8px 2px #dfdcdc;
+    list-style: none; 
+}
+
+#last-card-mp {
+    margin-bottom: 0;
+}
+
+.mp-card a {
+    text-decoration: none;
+    color: black;
+}
+
+.mp-card img {
+    object-fit:cover;
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+
+.hotel-info {
+    position: relative;
+    left: 40%;
+    bottom: 97%;
+    width: 60%;
+}
+
+.star {
+    margin-left: 8px;
+    color: #0065FC;
+}
+
+.star-gray {
+    color: #f2f2f2;
+}
+
+#growing-chart {
+    position: relative;
+    left: 90%;
+    bottom: 4%;
+    font-size: 21px;
+    color: black;
+}
+
+.price-mp {
+    margin: 4px 0 25px 8px;
+}
+
+.hotel {
+    /*border: 1px solid green; /* delete */
+    width: 100%; /* 140 px*/
+}
+
+#hotel-msh {
+    padding-bottom: 5%;
+}
+
+.euros {
+    font-weight: 600;
+}  
+
+.mp-card:hover { /* Mouseover at cards ------------------------------*/
+    border: 3px solid #0065FC;
+}
+
+/* -- Activities cards stack ----------------------------------------------------------*/
+.activities {
+    /*border: 1px solid orange; /* delete */
+    padding: 0 23px;
+    margin-top: 30px;
+}
+
+#act-container {
+    /*border: 1px solid red; /* delete */
+    padding-top: 10px;
+    width: 100%;
+    display: flex;
+    flex-flow: column wrap;
+    align-content: space-between;
+    height: 355px;
+}
+
+.act-card {
+    background-color: white;
+    border-radius: 15px;
+    font-size: 11px;
+    width: 23.1%;   /* mp size 315px */
+    box-shadow: 2px 4px 8px 2px #f2f2f2;
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+.act-card a {
+    text-decoration: none;
+    color: black;
+}
+
+.act-card img {
+    object-fit: cover;
+    width: 100%;
+    height: 90%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+.place {
+    padding: 6px 0 0 6px;
+}
+
+#item1, #item4 {
+    height: 305px;
+}
+
+#item2 {
+    height: 168px; 
+    padding-bottom: 19px;
+}
+
+#item3 {
+    height: 117px;
+    padding-bottom: 24px;
+}
+
+#item5 {
+    height: 138px;
+    padding-bottom: 20px;
+}
+
+#item6 {
+    height: 146px;  /* acc size 160px */
+    padding-bottom: 20px;
+}
+
+.act-card:hover { /* Mouseover at cards ------------------------------*/
+    border: 3px solid #0065FC;
+}
+
+/* -- Footer ----------------------------------------------------------*/
+footer {
+    background-color: #F2F2F2;
+    list-style: none;
+    padding: 9px 0 25px 28px;
+    display: flex;
+    flex-direction: row;
+    height: fit-content;
+}
+
+footer h4{
+    margin-left: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+footer a {
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+}
+
+.container {
+    /*border: 1px solid green; /* delete */
+    margin-top: 20px;
+    margin-right: 150px;
+}
+
+.container div {
+    line-height: 1.8;
+}
+
+.container ul {
+    list-style: none;;
+}
+
+#assistance {
+    margin-bottom: 8px;
+}
+
+#a-container {
+    margin-left: 16px;
+}
+
